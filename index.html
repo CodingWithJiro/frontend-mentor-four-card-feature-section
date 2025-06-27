@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Four-Card Feature Section</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Elmar Chavez" />
+    <meta name="description"
+        content="A clean and responsive four-card feature section built with HTML and CSS. Developed in my third month of learning frontend development as part of a Frontend Mentor challenge." />
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta property="og:site_name" content="CodingWithJiro" />
+    <meta property="og:title" content="Four-Card Feature Section" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="A clean and responsive four-card layout built with HTML and CSS. Designed during my third month of learning frontend development for a Frontend Mentor challenge." />
+    <!-- ADD LINK -->
+    <meta property="og:url" content="" />
+    <!-- ADD LINK -->
+    <meta property="og:image" content="img/site-preview-meta_1200x630.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Four-Card Feature Section" />
+    <meta name="twitter:description"
+        content="A responsive four card feature section page built with HTML and CSS. Created during my third month learning frontend development as part of a Frontend Mentor challenge. #HTML #CSS #FrontendMentor #ResponsiveDesign" />
+    <!-- ADD LINK -->
+    <meta name="twitter:image" content="img/site-preview-meta_1200x630.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__skip-link sr-only" href="#main" aria-label="Skip to main content">Skip to main content</a>
+
+            <h1 class="header__title">
+                Reliable, efficient delivery <span class="header__span">Powered by Technology</span>
+            </h1>
+
+            <p class="header__description">
+                Our Artificial Intelligence powered tools use millions of project data points
+                to ensure that your project is successful
+            </p>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+        <div class="main__container container">
+            <section class="card" aria-labelledby="card__supervisor" aria-roledescription="Supervisor Card">
+                <h2 class="card__title" id="card__supervisor">
+                    Supervisor
+                </h2>
+
+                <p class="card__description">
+                    Monitors activity to identify project roadblocks
+                </p>
+
+                <img src="./img/icon-supervisor_64x64.svg" alt="" aria-hidden="true" width="64" height="64"
+                    class="card__icon">
+            </section>
+
+            <section class="card" aria-labelledby="card__team-builder" aria-roledescription="Team Builder Card">
+                <h2 class="card__title" id="card__team-builder">
+                    Team Builder
+                </h2>
+
+                <p class="card__description">
+                    Scans our talent network to create the optimal team for your project
+                </p>
+
+                <img src="./img/icon-team-builder_64x64.svg" alt="" aria-hidden="true" width="64" height="64"
+                    class="card__icon">
+            </section>
+
+            <section class="card" aria-labelledby="card__karma" aria-roledescription="Karma Card">
+                <h2 class="card__title" id="card__karma">
+                    Karma
+                </h2>
+
+                <p class="card__description">
+                    Regularly evaluates our talent to ensure quality
+                </p>
+
+                <img src="./img/icon-karma_64x64.svg" alt="" aria-hidden="true" width="64" height="64"
+                    class="card__icon">
+            </section>
+
+            <section class="card" aria-labelledby="card__calculator" aria-roledescription="Calculator Card">
+                <h2 class="card__title" id="card__calculator">
+                    Calculator
+                </h2>
+
+                <p class="card__description">
+                    Uses data from past projects to provide better delivery estimates
+                </p>
+
+                <img src="./img/icon-calculator_64x64.svg" alt="" aria-hidden="true" width="64" height="64"
+                    class="card__icon">
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

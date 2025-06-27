@@ -1,0 +1,273 @@
+/* || RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+/* || VARIABLES */
+/* CHANGE THE DATA BELOW AS NEEDED */
+:root {
+  /* FONTS */
+  --FF: "Poppins", sans-serif;
+  --FS: 1rem;
+
+  /* COLORS */
+  --BGCOLOR: #fff;
+  --BGCOLOR-CARD: #fff;
+  --FONT-COLOR: hsl(234, 12%, 34%);
+  --BORDER-COLOR-CARD-1: hsl(180, 62%, 55%);
+  --BORDER-COLOR-CARD-2: hsl(0, 78%, 62%);
+  --BORDER-COLOR-CARD-3: hsl(34, 97%, 64%);
+  --BORDER-COLOR-CARD-4: hsl(212, 86%, 64%);
+  --SHADOW-COLOR-CARD: hsla(212, 6%, 44%, 0.25);
+
+  /* BORDERS */
+  --BORDER-CARD-1: 5px solid var(--BORDER-COLOR-CARD-1);
+  --BORDER-CARD-2: 5px solid var(--BORDER-COLOR-CARD-2);
+  --BORDER-CARD-3: 5px solid var(--BORDER-COLOR-CARD-3);
+  --BORDER-CARD-4: 5px solid var(--BORDER-COLOR-CARD-4);
+
+  /* SHADOWS */
+  --BOX-SHADOW-CARD: 0 20px 20px var(--SHADOW-COLOR-CARD);
+}
+
+/* || MEDIA QUERY (DARK THEME) */
+/* CHANGE THE DATA BELOW AS NEEDED */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* COLORS */
+    --BGCOLOR: #1a1a1a;
+    --BGCOLOR-CARD: #2a2a2a;
+    --FONT-COLOR: #f1f5f9;
+    --BORDER-COLOR-CARD-1: hsl(180, 62%, 45%);
+    --BORDER-COLOR-CARD-2: hsl(0, 78%, 52%);
+    --BORDER-COLOR-CARD-3: hsl(34, 97%, 54%);
+    --BORDER-COLOR-CARD-4: hsl(212, 86%, 54%);
+    --SHADOW-COLOR-CARD: hsla(0, 0%, 100%, 0.1);
+  }
+}
+
+/* || UTILITY CLASSES */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.container {
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  margin: 0 auto;
+}
+
+/* || GENERAL STYLES */
+html {
+  font-size: var(--FS);
+  font-family: var(--FF);
+  background-color: var(--BGCOLOR);
+}
+
+body {
+  color: var(--FONT-COLOR);
+  min-height: 100vh;
+}
+
+/* || HEADER */
+.header__container {
+  padding-top: clamp(3.4rem, 7vw, 6.25rem);
+  padding-bottom: 3.55rem;
+  text-align: center;
+}
+
+.header__title {
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  font-weight: 200;
+  letter-spacing: 0.25px;
+  line-height: 1.45;
+  margin-bottom: 0.6em;
+}
+
+.header__span {
+  font-weight: 600;
+}
+
+.header__description {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 1.5;
+}
+
+/* || MAIN */
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.95rem;
+  padding-bottom: 5rem;
+}
+
+.card {
+  border-radius: 5px 5px 8px 8px;
+  min-height: 15.7rem;
+  padding: 1.7rem 2rem;
+  background-color: var(--BGCOLOR-CARD);
+  box-shadow: var(--BOX-SHADOW-CARD);
+  position: relative;
+  margin: 0 auto;
+  max-width: 22.875rem;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.025);
+}
+
+.card:nth-child(1) {
+  border-top: var(--BORDER-CARD-1);
+}
+
+.card:nth-child(2) {
+  border-top: var(--BORDER-CARD-2);
+}
+
+.card:nth-child(3) {
+  border-top: var(--BORDER-CARD-3);
+}
+
+.card:nth-child(4) {
+  border-top: var(--BORDER-CARD-4);
+}
+
+.card__title {
+  font-size: 1.255rem;
+  font-weight: 600;
+  margin-bottom: 0.15em;
+}
+
+.card__description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.card__icon {
+  position: absolute;
+  right: 2rem;
+  bottom: 3rem;
+}
+
+/* || MEDIA QUERY (DEVICE WIDTH) */
+@media screen and (min-width: 23.4375rem) {
+  /* || HEADER */
+  .header__container {
+    max-width: 35.8rem;
+  }
+
+  .header__span {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  /* || HEADER */
+  .header__container {
+    padding-bottom: 4.4rem;
+  }
+
+  .header__title {
+    margin-bottom: 0.35em;
+  }
+
+  /* || MAIN */
+  .main__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      ".    team    ."
+      "sup  team    calc"
+      "sup  karma   calc"
+      ".    karma   .";
+    max-width: 69.75rem;
+  }
+
+  .card:nth-child(1) {
+    grid-area: sup;
+  }
+
+  .card:nth-child(2) {
+    grid-area: team;
+  }
+
+  .card:nth-child(3) {
+    grid-area: karma;
+  }
+
+  .card:nth-child(4) {
+    grid-area: calc;
+  }
+}
+
+@media screen and (min-width: 69.75rem) {
+  /* || MAIN */
+  .main__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* || MEDIA QUERY (REDUCED MOTION) */
+/* CHANGE THE DATA BELOW AS NEEDED */
+@media (prefers-reduced-motion: no-preference) {
+  /* || GENERAL STYLES */
+  html {
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* || MAIN */
+  .card {
+    transition: background-color 0.3s ease, border-color 0.3s ease,
+      box-shadow 0.3s ease, transform 0.15s ease-in-out;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-delay: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    animation: none !important;
+
+    transition-duration: 0.001ms !important;
+    transition-delay: 0.001ms !important;
+    transition: none !important;
+
+    caret-color: auto !important;
+  }
+
+  html {
+    scroll-behavior: auto !important;
+  }
+}
