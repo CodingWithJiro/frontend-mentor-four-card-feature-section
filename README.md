@@ -15,6 +15,7 @@
 ![Mobile First](https://img.shields.io/badge/Mobile--First-Design-orange?style=for-the-badge)
 ![Dark Mode](https://img.shields.io/badge/Dark--Mode-Available-111?style=for-the-badge&logo=halfbrickstudios&logoColor=white)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6c40eff-4412-41e3-ba56-522caa2bd82c/deploy-status)](https://four-card-feature-section-fm-jiro.netlify.app/)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%203-blue)
 
@@ -84,7 +85,7 @@ Subtle hover transitions, dark mode support, and reduced motion preferences are 
 
 ## 🌐 Live Demo
 
-Or you can check out the 👉 [live website here](LINK)
+Or you can check out the 👉 [live website here](https://four-card-feature-section-fm-jiro.netlify.app/)
 
 ---
 
@@ -95,10 +96,3 @@ Created by **Elmar Chavez**
 🗓️ Month/Year: **June 2025**
 
 📚 Journey: **3<sup>rd</sup>** month of learning _frontend web development_.
-
-<!--
-
-FRONTEND MENTOR TAGS:
-html css vscode git github netlify 3rd-month frontend-mentor project perfectpixel
-
--->
