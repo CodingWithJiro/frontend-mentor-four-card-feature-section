@@ -14,6 +14,7 @@
 ![Responsive Layout](https://img.shields.io/badge/Responsive%20Layout-Full%20Support-blue?style=for-the-badge)
 ![Mobile First](https://img.shields.io/badge/Mobile--First-Design-orange?style=for-the-badge)
 ![Dark Mode](https://img.shields.io/badge/Dark--Mode-Available-111?style=for-the-badge&logo=halfbrickstudios&logoColor=white)
+[![Google Lighthouse](https://img.shields.io/badge/Lighthouse-Audit-00B0FF?style=for-the-badge&logo=lighthouse&logoColor=white)](./lighthouse/google-lighthouse-evaluation.pdf)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e6c40eff-4412-41e3-ba56-522caa2bd82c/deploy-status)](https://four-card-feature-section-fm-jiro.netlify.app/)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
@@ -86,6 +87,12 @@ Subtle hover transitions, dark mode support, and reduced motion preferences are 
 ## 🌐 Live Demo
 
 Or you can check out the 👉 [live website here](https://four-card-feature-section-fm-jiro.netlify.app/)
+
+---
+
+## 📊 Performance Report
+
+A **Google Lighthouse** audit was conducted on the final version of this project—view the full report [here](./lighthouse/google-lighthouse-evaluation.pdf)
 
 ---
 
