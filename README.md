@@ -19,6 +19,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e6c40eff-4412-41e3-ba56-522caa2bd82c/deploy-status)](https://four-card-feature-section-fm-jiro.netlify.app/)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%203-blue)
+![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-four-card-feature-section&left_text=repo%20views)
 
 ## ℹ️ A Clean and Responsive Four-Card Feature Section for an AI Company
 
