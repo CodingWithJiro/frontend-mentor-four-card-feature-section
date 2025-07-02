@@ -93,7 +93,7 @@ Or you can check out the 👉 [live website here](https://four-card-feature-sect
 
 ## 📊 Performance Report
 
-A **Google Lighthouse** audit was conducted on the final version of this project—view the full report [here](./lighthouse/google-lighthouse-evaluation.pdf)
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./lighthouse/google-lighthouse-evaluation.pdf).
 
 ---
 
