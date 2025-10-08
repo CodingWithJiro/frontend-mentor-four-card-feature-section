@@ -1,4 +1,4 @@
-# 💻 Four-Card Feature Section
+# Four-Card Feature Section
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -21,7 +21,7 @@
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%203-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.frontend-mentor-four-card-feature-section&left_text=repo%20views)
 
-## ℹ️ A Clean and Responsive Four-Card Feature Section for an AI Company
+## A Clean and Responsive Four-Card Feature Section for an AI Company
 
 | _Mobile Preview (375x812)_                            | _Desktop Preview (1440x960)_                             |
 | ----------------------------------------------------- | -------------------------------------------------------- |
@@ -30,11 +30,11 @@
 
 A clean, accessible, and responsive layout that showcases four key features of an AI-driven company.
 
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+Created as part of the building challenges from **[Frontend Mentor](https://www.frontendmentor.io/)**.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project presents a four-card layout showcasing key offerings of a fictional AI company. It features fully semantic HTML, responsive design for mobile and desktop, and thoughtful accessibility considerations.
 
@@ -42,7 +42,7 @@ Subtle hover transitions, dark mode support, and reduced motion preferences are 
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive 1-to-4 card layout using CSS Grid
 - Mobile-first design approach
@@ -55,7 +55,7 @@ Subtle hover transitions, dark mode support, and reduced motion preferences are 
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 - Creating semantic, accessible HTML5 structure
 - Using ARIA labels and roles effectively
@@ -63,11 +63,11 @@ Subtle hover transitions, dark mode support, and reduced motion preferences are 
 - Respecting motion preferences with CSS media queries
 - CSS Grid layout with `grid-template-areas`
 - Utility class management (`.sr-only`, `.container`, etc.)
-- How to mirror JPEG image designs in code using tools like [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonecod/dkaagdgjmgdmbnecmcefdhjekcoceebi)
+- How to mirror JPEG image designs in code using tools like **[PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonecod/dkaagdgjmgdmbnecmcefdhjekcoceebi)**
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 
 - HTML5
 - CSS3
@@ -78,29 +78,29 @@ Subtle hover transitions, dark mode support, and reduced motion preferences are 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Open `index.html` in your browser
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-Or you can check out the 👉 [live website here](https://four-card-feature-section-fm-jiro.netlify.app/)
-
----
-
-## 📊 Performance Report
-
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./lighthouse/google-lighthouse-evaluation.pdf).
+Or you can check out the **[live website here](https://four-card-feature-section-fm-jiro.netlify.app/)**
 
 ---
 
-## 🧑‍💻 Author
+## Performance Report
+
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the **[full report here](./lighthouse/google-lighthouse-evaluation.pdf)**.
+
+---
+
+## Author
 
 Created by **Elmar Chavez**
 
-🗓️ Month/Year: **June 2025**
+Month/Year: **June 2025**
 
-📚 Journey: **3<sup>rd</sup>** month of learning _frontend web development_.
+Journey: **3<sup>rd</sup>** month of learning _frontend web development_.
